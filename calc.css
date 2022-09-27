@@ -3,11 +3,13 @@ html{
 }
 
 .container{
-  max-width: 960px;
   padding: 50px 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .calc{
+  width: 200px;
   border: solid 1px rgba(
   0, 0, 0, .15);
   padding: 20px 50px;
@@ -17,7 +19,8 @@ html{
   display: flex;
   flex-direction: column;
   place-items: center;
-  background: rgb(245, 245, 255)
+  background: rgb(245, 245, 255);
+  margin-top: 10%;
 }
 
 .textbar{
@@ -29,6 +32,7 @@ html{
   place-self: center;
   border: solid 1px rgba(
               0, 0, 0, .15);
+  width: 240px;
 }
 .keyboard{
   display: flex;
@@ -39,6 +43,7 @@ html{
   padding: 5px;
   width: 120%;
   margin-top: 20px;
+  width: 200px;
 }
 #num1{
   padding: 10px 15px;
