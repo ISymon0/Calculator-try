@@ -30,7 +30,6 @@ html{
   width: 120%;
   padding: 10px 15px;
   place-self: center;
-  width: 240px;
 }
 .keyboard{
   display: flex;
