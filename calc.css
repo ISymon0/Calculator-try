@@ -19,7 +19,7 @@ html{
   display: flex;
   flex-direction: column;
   place-items: center;
-  background: rgb(245, 245, 255);
+  background: rgb(238, 238, 255);
   margin-top: 10%;
 }
 
@@ -30,8 +30,6 @@ html{
   width: 120%;
   padding: 10px 15px;
   place-self: center;
-  border: solid 1px rgba(
-              0, 0, 0, .15);
   width: 240px;
 }
 .keyboard{
@@ -51,7 +49,8 @@ html{
   box-shadow: -5px -5px 12px rgba(
       0, 0, 0, .15), 5px
       5px 12px #ffffff;
-  border: solid 1px rgba(0, 0, 0, .15);
+  border: none;
+  background-color: rgb(238, 238, 255);
 }
 #minus{
   padding: 10px 16.5px;
@@ -59,9 +58,6 @@ html{
   box-shadow: -5px -5px 12px rgba(
       0, 0, 0, .15), 5px
       5px 12px #ffffff;
-  border: solid 1px rgba(
-            0, 0, 0, .15);
-}
-.cancel{
-  margin-top: 10px
+  border: none;
+  background-color: rgb(238, 238, 255);
 }
